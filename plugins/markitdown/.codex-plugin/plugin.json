@@ -1,19 +1,32 @@
 {
   "name": "markitdown",
   "version": "0.1.0",
-  "description": "Markitdown plugin",
+  "description": "Convert local documents to Markdown with Microsoft MarkItDown.",
   "author": {
-    "name": "Local developer"
+    "name": "dorlanpabon",
+    "url": "https://github.com/dorlanpabon"
   },
   "skills": "./skills/",
   "interface": {
-    "displayName": "Markitdown",
-    "shortDescription": "Use Markitdown in Codex.",
-    "longDescription": "Markitdown adds a local Codex plugin scaffold.",
-    "developerName": "Local developer",
+    "displayName": "MarkItDown for Codex",
+    "shortDescription": "Local documents to Markdown",
+    "longDescription": "Extract Markdown from local PDF, Word, PowerPoint, Excel, HTML and text files. Includes a local MCP tool and a self-contained conversion skill. Community integration by dorlanpabon; not affiliated with Microsoft or OpenAI.",
+    "developerName": "dorlanpabon",
     "category": "Productivity",
-    "capabilities": [],
-    "defaultPrompt": "Help me use Markitdown."
+    "capabilities": ["Read"],
+    "websiteURL": "https://github.com/dorlanpabon/markitdown-codex",
+    "privacyPolicyURL": "https://github.com/dorlanpabon/markitdown-codex/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/dorlanpabon/markitdown-codex/blob/main/TERMS.md",
+    "brandColor": "#2563EB",
+    "defaultPrompt": [
+      "Convierte este PDF a Markdown.",
+      "Extrae las tablas de este Excel a Markdown.",
+      "Convert this Word document into Markdown."
+    ]
   },
-  "mcpServers": "./.mcp.json"
+  "mcpServers": "./.mcp.json",
+  "homepage": "https://github.com/dorlanpabon/markitdown-codex",
+  "repository": "https://github.com/dorlanpabon/markitdown-codex",
+  "license": "MIT",
+  "keywords": ["markitdown", "markdown", "pdf", "documents", "mcp", "codex"]
 }
