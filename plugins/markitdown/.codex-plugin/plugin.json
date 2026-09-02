@@ -18,6 +18,8 @@
     "privacyPolicyURL": "https://github.com/dorlanpabon/markitdown-codex/blob/main/PRIVACY.md",
     "termsOfServiceURL": "https://github.com/dorlanpabon/markitdown-codex/blob/main/TERMS.md",
     "brandColor": "#2563EB",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
     "defaultPrompt": [
       "Convierte este PDF a Markdown.",
       "Extrae las tablas de este Excel a Markdown.",
